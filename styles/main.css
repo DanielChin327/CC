@@ -1,9 +1,21 @@
 *{
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+font-family:monospace;
+background-color:lightgray;
+
 }
 
-.main{
+.landing-items{
+  gap: 24px;
+  display:flex;
+  justify-content: center;
+}
 
+.landing-message{
+  width:150px;
+  margin-right: 24px;
+}
 
-
+.landing-image{
+  width: 200px;
+  border-radius:4px;
 }

@@ -1,6 +1,32 @@
+nav{
+  margin: 0;
+  border: 0;
+  padding: 0
+}
+
+button{
+  margin-left: 4px;
+  border-radius:2px;
+  padding:4px;
+  background-color: #9395d3;
+  color:white;
+}
+
+button:hover{
+  margin-left: 4px;
+  border-radius:4px;
+  padding:4px;
+  background-color: #b3b7ee;
+  color:white;
+}
+
+.logo{
+  width:24px;
+  border-radius: 50%;
+}
 .list{
   display:flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
 }
 
