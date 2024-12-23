@@ -1,12 +1,14 @@
-.navbar-lewagon {
+.list{
+  display:flex;
   justify-content: space-between;
-  background: white;
+  list-style: none;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.list a {
+  color: inherit; /* Inherit color from parent, or specify a color like black */
+  text-decoration: none; /* Removes the underline */
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.list a:hover {
+  text-decoration: none; /* Ensures underline doesn't appear on hover */
 }
