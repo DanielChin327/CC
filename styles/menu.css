@@ -1,0 +1,18 @@
+*{
+  background-color: #9395d3;
+  color: white;
+}
+
+.main{
+  display:flex;
+  justify-content: space-around;
+}
+
+#menu-content{
+  font-size:36px;
+}
+
+.message{
+  margin-top:148px;
+  align-items: center;
+}

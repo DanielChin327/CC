@@ -7,36 +7,32 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <link rel="stylesheet" href="/styles/main.css">
   <link rel="stylesheet" href="/styles/navbar.css">
+  <link rel="stylesheet" href="/styles/menu.css">
 </head>
 <body>
   <div class="container">
     <div id="navbar"></div> <!-- Navbar dynamically loaded here -->
 
     <div class="main">
+
       <div id="menu-content">
         <section id="search-job">
           <h2>Search Job</h2>
-          <p>Use this section to search for your desired jobs.</p>
         </section>
         <section id="status">
           <h2>Status</h2>
-          <p>Check the status of your job applications here.</p>
         </section>
         <section id="my-profile">
           <h2>My Profile</h2>
-          <p>Manage your profile and account settings in this section.</p>
         </section>
       </div>
+
+      <div class="message">Devoted to excellence</div>
     </div>
 
     <div class="footer"></div>
   </div>
   <script src="scripts/loadNavbar.js"></script>
-  <script>
-    // Optional: Add animations specific to the menu page
-    document.addEventListener("DOMContentLoaded", function () {
-      gsap.from("#menu-content", { opacity: 0, y: 50, duration: 1 });
-    });
-  </script>
+  <script src="scripts/menu-animations.js"></script>
 </body>
 </html>
