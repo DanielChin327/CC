@@ -5,20 +5,23 @@ nav{
 }
 
 button{
-  cursor: pointer;
-  margin-left: 4px;
-  border-radius:2px;
-  padding:4px;
+  padding: 10px 20px;
   background-color: #9395d3;
-  color:white;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 button:hover{
-  margin-left: 4px;
-  border-radius:4px;
-  padding:4px;
+  padding: 10px 20px;
   background-color: #b3b7ee;
-  color:white;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .logo{

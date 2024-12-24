@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Job - Career Connect</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/navbar.css">
+  <link rel="stylesheet" href="/styles/search_job.css">
+</head>
+<body>
+  <div class="container">
+    <div id="navbar"></div> <!-- Navbar dynamically loaded here -->
+
+    <div class="main">
+      <div class="search-section">
+        <h1>Find Your Dream Job</h1>
+        <form id="search-form">
+          <input
+            type="text"
+            id="search-bar"
+            placeholder="Search for job titles, companies, or keywords..."
+          />
+          <button type="button" id="search-button">Search</button>
+        </form>
+        <div id="search-results">
+          <!-- Fake results will populate here -->
+        </div>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+  </div>
+  <script src="scripts/loadNavbar.js"></script>
+  <script src="scripts/search_job.js"></script>
+</body>
+</html>
