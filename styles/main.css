@@ -5,13 +5,13 @@ background-color:lightgray;
 }
 
 .landing-items{
-  gap: 24px;
+  gap: 8px;
   display:flex;
   justify-content: center;
 }
 
 .landing-message{
-  width:150px;
+  width:250px;
   margin-right: 24px;
 }
 

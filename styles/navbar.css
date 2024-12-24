@@ -5,6 +5,7 @@ nav{
 }
 
 button{
+  cursor: pointer;
   margin-left: 4px;
   border-radius:2px;
   padding:4px;
