@@ -10,9 +10,36 @@
 
 #menu-content{
   font-size:36px;
+  text-decoration: none;
+  margin-top:48px;
 }
 
+#menu-content h2{
+  margin: 8px;
+}
+
+#menu-content h2:hover{
+  color:black;
+}
+
+
+#menu-content a{
+  text-decoration: none;
+}
+
+#menu-content a:hover{
+  text-decoration:underline;
+  color:black;
+  animation-duration: 2ms;
+}
+
+
+.menu-option{
+  text-decoration: none;
+
+}
 .message{
   margin-top:148px;
+  width: 400px;
   align-items: center;
 }
